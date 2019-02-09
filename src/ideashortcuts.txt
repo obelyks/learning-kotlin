@@ -1,0 +1,3 @@
+Scrollfromsource                Alt+F1  1
+recet files                     C+e
+select numbered window/frame    Alt+1(nebojinecislo)

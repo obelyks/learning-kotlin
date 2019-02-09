@@ -1,0 +1,1 @@
+git rm --cached ".idea\workspace.xml" && git commit -m ".idea\workspace.xml"
