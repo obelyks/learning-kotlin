@@ -1,1 +1,3 @@
 git rm --cached ".idea\workspace.xml" && git commit -m ".idea\workspace.xml"
+git rm -r --cached ".idea" && git commit -m ".idea"
+git rm -r --cached "*.iml" && git commit -m "*.iml"
