@@ -1,6 +1,6 @@
 @file:JvmName("MyApp")
 // package nemusi byt stejne jako struktura source
-// package `ch01-getting-started`
+// package `k001_GettingStarted`
 //ale vadi mu to jako WARNING
 
 package my.program
