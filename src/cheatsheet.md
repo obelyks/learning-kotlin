@@ -7,10 +7,15 @@
 * identity je === (3)!
 * neco ?: dalsi 
 * TODO primo v jazyku, inline fce
- fun elements() {
-      TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-  }
-  
+     ```
+     fun elements() {TODO("not implemented") 
+    ```
+* kotlin deklarace i v java kontruktech
+    ```
+    catch(npe: KotlinNullPointerException ){ //kotlin naopak
+    ```
+*
+ 
 ###### Arrays  
 * arrayOf/  xxxArrayOf(el1,el2,...)
 * CLOSURE... x=Array(3) { i -> i * 2 }
