@@ -8,10 +8,15 @@
 * neco ?: dalsi ... ELVIS:  necoComuzebytnull ?: jetli_to_nullje_tak_vrat_tohle(vuhodnocuje se lazy)
 * ?. safe call call nebo null//TODO retezeni x?.y?.z?.call co rati kdyz je prvni null??? 
 * TODO primo v jazyku, inline fce
- fun elements() {
-      TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-  }
-  
+     ```
+     fun elements() {TODO("not implemented") 
+    ```
+* kotlin deklarace i v java kontruktech
+    ```
+    catch(npe: KotlinNullPointerException ){ //kotlin naopak
+    ```
+*
+ 
 ###### Arrays  
 * arrayOf/  xxxArrayOf(el1,el2,...)
 * CLOSURE... x=Array(3) { i -> i * 2 }
