@@ -5,6 +5,9 @@
 * c+s+e recent EDITED files
 * a+s+C recent CHANGES
 * c+b,c+a+b(impl) c+a+LEFT/RIGHT
+* c+[/]  zacatek/konec bloku 
+* c+. expand/collapse  auto???
+* c+s+F12  fulllscreen ale jenom intellijFUllSCreen
 * c+u supermethod/class
 * c+a+F7 show usages    
 * c+s+I QUICK DEFINITION LOOKUP!!!! TODO
