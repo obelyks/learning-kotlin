@@ -5,7 +5,8 @@
 * val s = "i = $num"
 * equals je ==
 * identity je === (3)!
-* neco ?: dalsi 
+* neco ?: dalsi ... ELVIS:  necoComuzebytnull ?: jetli_to_nullje_tak_vrat_tohle(vuhodnocuje se lazy)
+* ?. safe call call nebo null//TODO retezeni x?.y?.z?.call co rati kdyz je prvni null??? 
 * TODO primo v jazyku, inline fce
      ```
      fun elements() {TODO("not implemented") 
