@@ -5,6 +5,23 @@ package k018_Generics
 //typename==generika
 //classname...
 
+class Box<T>(t: T) {
+    var value = t
+    override fun toString():String {
+        return "Box ($value)"
+    }
+}
+
+fun main(args: Array<String>) {
+    val box0: Box<Int> = Box<Int>(0)
+    println("box=$box0")
+    val box = Box(1) // 1 has type Int, so the compiler figures out that we are talking about Box<Int>
+    println("box=$box")
+
+    //declaration-site variance and type projections
+}
+
+/*
 
 //--Declaration-site variance can be thought of as declaration of use-site variance once and for all the use-sites.
 class Consumer<in T> { fun consume(t: T) {  } }
@@ -48,3 +65,4 @@ putList[0] // This expression has type Any, since no upper bound is specified
 val starList : MutableList<*> = ... // Java: List<?>
 starList[0] // This expression has type Any, since no upper bound is specified
 starList.add(someValue) // Error, lower bound for generic is not specified
+        */
